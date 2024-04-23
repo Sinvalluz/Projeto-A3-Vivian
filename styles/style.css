@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 @import url(./reset.css);
+@import url(./header.css);
+@import url(./main.css);
+
+:root {
+    --roxo-mais-escuro: #252661;
+    --azul-oceano: #4D76AC;
+    --azul-claro: #9AAECE;
+    --roxo-azul: #4C4799;
+    --roxo-claro: #8679BC;
+    --font-balo: "Baloo 2", sans-serif;
+    --font-flora: "flora", serif;
+    --plano-de-fundo: rgb(37, 38, 97);
+    --plano-de-fundo-gradiente: radial-gradient(circle, rgba(37, 38, 97, 1) 0%, rgba(77, 118, 172, 1) 50%, rgba(154, 174, 206, 1) 100%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: var(--plano-de-fundo);
+    background: var(--plano-de-fundo-gradiente);
+}
